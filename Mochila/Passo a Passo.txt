@@ -1,0 +1,4 @@
+1º Instale a ultima versão do python (www.python.org)
+2º Baixe o arquivo .py
+3º Abra o CMD no diretorio do aqruivo .py
+4º Comando para executar: Python nomedoaquivo.py 
