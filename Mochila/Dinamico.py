@@ -26,7 +26,7 @@ for l in range(1,qtditens):
         if c - peso[l]  >= 0:
             # Se o "novo" valor não é maior que o valor na mochila
             # conserva o valor na mochila
-            if aux1[l-1][c -l ] + valor[l] > aux1[l-1][c]:
+            if aux1[l-1][c - peso[l] ] + valor[l] > aux1[l-1][c]:
                 aux1[l][c] = aux1[l-1][c - peso[l]] + valor[l]
             else:
                 aux1[l][c] = aux1[l - 1][c]
